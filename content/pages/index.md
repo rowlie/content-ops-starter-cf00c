@@ -29,7 +29,6 @@ sections:
         icon: arrowRight
         iconPosition: right
         style: primary
-        elementId: ''
         type: Link
     media:
       url: /images/main-hero.svg
@@ -51,6 +50,16 @@ sections:
           - pl-16
           - pb-16
           - pr-16
+  - type: VoteBlock
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        padding:
+          - pt-8
+          - pl-8
+          - pb-8
+          - pr-8
+        justifyContent: center
   - type: FeaturedItemsSection
     title:
       text: Key Benefits
